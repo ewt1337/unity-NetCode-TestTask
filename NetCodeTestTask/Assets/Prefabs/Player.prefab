@@ -121,8 +121,9 @@ GameObject:
   - component: {fileID: 5420778833061937885}
   - component: {fileID: 1774794946536674944}
   - component: {fileID: 7872132255548746658}
-  - component: {fileID: 6419178090323831395}
   - component: {fileID: -6351213911684187179}
+  - component: {fileID: 6419178090323831395}
+  - component: {fileID: 2135256357961731222}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -249,22 +250,6 @@ MonoBehaviour:
   AutoObjectParentSync: 1
   SyncOwnerTransformWhenParented: 1
   AllowOwnerToParent: 0
---- !u!114 &6419178090323831395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2264799272330341125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da4540fe491e0d14483032d66db65db0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowTopMostFoldoutHeaderGroup: 1
-  _characterController: {fileID: 1774794946536674944}
-  _speed: 5
-  _gravity: -9.81
 --- !u!114 &-6351213911684187179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,3 +296,31 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
+--- !u!114 &6419178090323831395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2264799272330341125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da4540fe491e0d14483032d66db65db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  _characterController: {fileID: 1774794946536674944}
+  _speed: 5
+  _gravity: -9.81
+--- !u!114 &2135256357961731222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2264799272330341125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde47ac82e5e86148a6b77afef1faf5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
